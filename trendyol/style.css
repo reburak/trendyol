@@ -1,0 +1,135 @@
+.ust_bilgi{
+    font-size: 12px;
+}
+.ust_bilgi .nav-item{
+    margin-left: -1%;
+    
+}
+.ust_bilgi ul li a{
+    color: gray;    
+}
+.d-flex{
+    margin-left: 80px;
+    width: 600px;
+
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: orange;
+}
+.dropdown button{
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+.dropdown button:hover{
+    color: orange;
+    background-color: transparent;
+    border-color: transparent;
+}
+.collapse > .d-flex >.form-control{
+    background-color: rgba(105, 104, 114, 0.048);
+}
+.collapse > .d-flex .ara{
+    color: orange;
+    border-color: transparent;
+    background-color: transparent;
+    z-index: -1;
+    margin-left: -50px;
+    width: 30px;
+    font-size: 22px;
+}
+#katagori ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+#katagori ul li a{
+    color: black;
+    font-size: 14px;
+
+}
+#katagori ul li a:hover{
+
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+.border{
+    z-index: -1;
+    margin-top: -16px;
+    border-bottom: 1px solid grey;
+    opacity: 40%;
+}
+.s_yol nav ol li a{
+
+    color: rgb(34, 34, 34);
+    
+}
+.s_yol nav ol li a:hover{
+
+    color: orange;
+}
+.s_yol{
+    margin-left: 48px;
+}
+.urun{
+    margin-left: 50px;
+    width: 900px;
+    height: 500px;
+    
+}
+.urun .card .row .col-md-4{
+    margin: 4%;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    border-radius: 5px;
+}
+
+.urun .card .row .col-md-8 .card-body #urun_txt{
+    margin-left: 5px;
+    border-radius: 2px;
+    background-color: #ffedde;
+    font-size: 11px;
+    color: #f27a1a;
+    padding: 0 12px 0 3px;
+}
+.urun .card .row .col-md-8 .card-body .dgrlndrm{
+    font-size: 14px;
+}
+.urun .card .row .col-md-8 .card-body .dgrlndrm p i{
+    color: rgb(255, 183, 0);
+}
+.urun .card .row .col-md-8 #se{
+    margin-left: 15px;
+    width: 430px;
+    height: 50px;
+    color: white;
+    background-color: #f27a1a;
+} 
+.urun .card .row .col-md-8 #fav{
+    font-size: x-large;
+    color: rgba(42, 42, 42, 0.587);
+    border: 2px solid rgba(128, 128, 128, 0.282);
+    background-color: transparent;
+} 
+.urun .card .row .col-md-8 #fav:hover{
+    font-size: x-large;
+    color: #f27a1a;
+    border: 2px solid rgba(128, 128, 128, 0.282);
+    background-color: transparent;
+} 
+.urun .card .row .col-md-8 #hizli{
+    background-color: #0bc15d21;
+    color: #0bc15c;
+    margin-left: 15px;
+    width: 500px;
+    height: 29px;
+    font-size: 12px;
+    border-color: transparent;
+}
+.urun .card .row .col-md-8 .bilgiler{
+    margin-top: 5px;
+    margin-left: 20px;
+    max-width: 500px;
+}

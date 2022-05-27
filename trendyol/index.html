@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Burakyol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b590118d6.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+        <div style="background-color:rgb(203,9,77) ;">
+            <img src="https://cdn.dsmcdn.com/mrktng/crm/2022/topBnr/may/20/sg.gif" style="width: 1310px; height: auto;" draggable="false" width="1145" height="65" alt="">
+        </div>
+        
+    <!-- Ust bilgi -->
+    <div class="ust_bilgi">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">İndirim kuponlarım</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Burakyol'da Satış Yap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Yardım ve Destek</a>
+            </li>
+          </ul>
+    </div>
+    <!-- Logo bölümü -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <img src="./img/burakyol.png" style="width: 146px; height:100%; margin-left:40px; margin-bottom: -3px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Arama bölümü -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search" >
+                <input class="form-control me-2 " type="search" placeholder="Aradığınız ürün, katagori veya markayı buraya yazın" aria-label="Search"> 
+                <button class="ara">
+                    <i class="fa-solid fa-magnifying-glass" style="margin:auto"></i>
+                </button>
+            </form>
+
+            <!-- Giriş, favoriler ve sepetim bölümü -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end" style="margin-left: 60px; ">
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                            <i class="fa-regular fa-user"></i>
+                            Giriş yap
+                        </button>
+                        <form class="dropdown-menu p-4">
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormEmail2" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="@mail.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormPassword2" class="form-label">Şifre</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Şifreniz">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Giriş yap</button>
+                        </form>
+                      </div>
+                </li>
+              <li class="nav-item">
+                
+                <a class="nav-link" aria-current="page" href="#"><i class="fa-regular fa-heart"></i> Favorilerim</a>
+              </li>
+              <li class="nav-item">
+                
+                <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i> Sepetim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Katagoriler -->
+      <div>
+        <nav class="nav" id="katagori">
+            <ul><b>
+                <li>
+                    <a class="nav-link" href="#">KADIN</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">ERKEK</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">ÇOCUK</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">EV & MOBİLYA</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">SÜPERMARKET</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">KOZMETİK</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">AYAKKABI & ÇANTA</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">SAAT & AKSESUAR</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">ELEKTRONİK</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">SPOR & OUTDOOR</a>
+                </li></b>
+            </ul>
+          </nav>
+      </div>
+      <div class="border"></div>
+    </header>
+    <!-- Sayfa yolu-->
+    <div class="s_yol">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+                <li class="breadcrumb-item"><a href="#">Süpermarket</a></li>
+                <li class="breadcrumb-item"><a href="#">Gıda ve İçecek</a></li>
+                <li class="breadcrumb-item"><a href="#">Süt ve Kahvaltılık</a></li>
+                <li class="breadcrumb-item"><a href="#">Pekmez</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Wefood Pekmez</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Ürün -->
+    <div class="row">
+    <div class="col-9">
+    <div class="urun">
+        <div class="card mb-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy" class="product-stamp ul" src="https://cdn.dsmcdn.com/indexing-sticker-stamp/moon/e68c3d96-a877-4e49-923b-ca420419ab40.png" style="width:103.75px">
+                <img src="https://cdn.dsmcdn.com/ty292/product/media/images/20220111/19/25145934/356628517/1/1_org_zoom.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8" style="margin-left: 350px; margin-top: -600px;">
+                <!-- Ürün sağ bilgi paneli -->
+                <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Pekmez kategorisinde </small><b id="urun_txt" style="font-style:italic;">en çok satılan 1. ürün</b></p>
+                  <h5 class="card-title" style="font-size: 18px;">Wefood Karadut Özü 640 Gr (soğuk Sıkım) 8681749104888</h5>
+                  <p class="card-text"><small class="text-muted" style="font-size: 13px;">Satıcı:<a href="#">Wefood</small></a></p>
+                  <div class="dgrlndrm">
+                    <p class="card-text"><small>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    972 Değerlendirme | 173 Soru & Cevap</small><p>
+                  </div>
+                  <p class="card-text" style="margin-top: -15px;"><small>Sepette indirimli</small></p>
+                  <p style="color: orangered; font-size: 25px; margin-top: -25px;"><b>66,99TL</b></p>
+                  <p style="margin-left: 400px; font-size: 13px;"><i class="fa-solid fa-bookmark" style="color: orange;"></i> Koleksiyona Ekle</p>
+                  <div class="border" style="max-width: 520px;"></div>
+                </div>
+                <!-- Sepete ekle, favori ve daha hızlı bir teslimat -->
+                <div class="sepet_ekle">
+                    <button type="button" class="btn" id="se" style="font-size: 20px;"><b>Sepete Ekle</b></button>
+                    <button type="button" class="btn" id="fav"><i class="fa-regular fa-heart"></i></button>
+                    <p style="margin-left: 20px; font-size: 12px; margin-top: 5px;"><b>Tahmini kargoya teslim: </b>2 gün içinde <small style="margin-left:200px;"><i class="fa-regular fa-heart"></i> 1739 favori</small></p>
+                    <button type="button" class="btn btn-outline-success" id="hizli"><i class="fa-solid fa-truck-fast"></i><b> Hızlı teslimat yapan satıcı var!</b></button>
+                    <div class="border"  style="max-width: 535px; margin-top: 10px;"></div>
+                </div>
+                <!-- Öne çıkan bilgiler -->
+                <div class="bilgiler">
+                    <h6>Öne çıkan bilgiler</h6>
+                    <ul style="font-size: 13px;"><small>
+                        <li>
+                            <p>15 gün içinde ücretsiz iade. Detaylı bilgi için tıklayın.</p>
+                        </li>
+                        <li>
+                            <p>Bu ürün Wefood tarafından gönderilecektir.</p>
+                        </li>
+                        <li>
+                            <p><b>İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.</b></p>
+                        </li>
+                        <li>
+                            <p>Karadut Özü Nedir? Karadut özü, olgun karadutların suyu ve posasının bir arada bulunduğu doğal bir tatlandırıcı çeşidini oluşturuyor. Homojen bir yapıya sahip olan bu besin, renk ve kıvam bakımından karadut pekmezine benziyor. Ancak pişirilmeden üretildiği için taze aroması ve yüksek besin değeri açısından bir adım öne çıkıyor. Wefood Karadut Özü Nasıl Yapılır? Karadut dalından koptuktan sonra hızla okside olabildiği için Wefood, bu meyveyi doğru mevsiminde ve tüm tazeliği ile işleme alıyor. Tam olgunluğa sahip birinci kalite karadutlar, modern ve hijyenik koşullarda soğuk sıkım tekniğiyle presleniyor. Sadece yenilebilir kısımları kullanılan meyveler homojen bir kıvama gelince, başka hiçbir yapay ya da doğal katkı ilave edilmeden doğrudan güvenilir cam kavanozlarına dolduruluyor. Wefood ayrıca, ham maddenin ve özün çapraz bulaşmaya maruz kalmaması adına tüm süreci glutensiz mamullere özel üretim hatlarında gerçekleştiriyor. Böylece glutensiz, katkısız ve taze beslenmenin tadını gönül rahatlığıyla çıkarabilmenizi sağlıyor.
+                            </p>
+                        </li>
+                    </ul></small>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+    </div>
+</div>
+<!-- Yan bölme -->
+    <div class="col-3" >
+        <b>
+        <div class="card" style="width: 15rem; ">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ÜRÜNÜN KAMPANYALARI</li>
+              <li class="list-group-item"><a href="#" style="color: black;"><i class="fa-solid fa-tag" style="color:orangered;"></i> 75 TL ve Üzeri Kargo Bedava</a></li>
+              <li class="list-group-item"><a href="#" style="color: black;"><i class="fa-solid fa-tag" style="color: orangered;"></i> Sepette İndirimli</a>
+                <br><small style="color: #c93939;"> 2 Gün 10 Saat !</small></li>
+            </ul>
+          </div>
+          <br>
+          <div class="card" style="width: 15rem; ">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Wefood <span class="badge text-bg-success">9.2</span>
+                <br><img alt="merchant-badge-image" loading="lazy" class="merchant-badge" src="https://cdn.dsmcdn.com/seller-store/resources/resmi_satici.svg" style="width: 80px;">  
+              </li>
+              <li class="list-group-item"><a href="#" style="color: black;"><i class="fa-solid fa-store" style="color: orangered;"></i> Mağzayı Gör</a>
+                <br><small style="color: #8d8d8d;"> 72.0B Takipçi !</small></li>
+              <li class="list-group-item"><a href="#" style="color: black;"><i class="fa-solid fa-message" style="color:orangered;"></i> Ürün soruları (99+)</a></li>
+            </ul>
+          </div>
+        </b>
+    </div>
+</div>
+<div style="background-color: #212121; color: white; margin-top: 300px; text-align: center;">
+    <p>2022 Burakyol Grup Danışmanlık İletişim ve Satış Tic.A.Ş. Her Hakkı Saklıdır. </p>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
